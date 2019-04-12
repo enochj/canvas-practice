@@ -62,6 +62,11 @@ function component(width, height, color, x, y, boardx, boardy) {
   this.setColor = function(newColor) {
     this.color = newColor;
   }
+  this.crashWith= function(other) {
+    var left = this.x;
+    var right = this.x + this.width;
+    // This is where we were.
+  }
 }
 
 function updateGameArea() {
